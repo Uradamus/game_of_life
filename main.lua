@@ -41,6 +41,7 @@ function love.load()
     img = love.graphics.newImage(img_data)
     img:setFilter("nearest", "nearest")
     
+    -- Runtime variables.
     running = false  -- Flag for toggling between running and paused.
     time = 0  -- Used for the delay simulation updates and puase/start.
     -- These get switched at the start of each frame of the simulation.
